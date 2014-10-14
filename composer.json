@@ -1,0 +1,26 @@
+{
+    "name": "antron/tasktable",
+    "description": "",
+    "keywords": ["laravel"],
+    "authors": [
+        {
+            "name": "antron",
+            "email": "antron@song2.jp"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "classmap": [
+            "src/controllers",
+            "src/migrations",
+            "src/models",
+            "src/views"
+        ],
+        "psr-0": {
+            "Antron\\Tasktable\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
